@@ -1,0 +1,37 @@
+{
+    "Phones":{
+        "Apple":[
+            {"name":"iPhone 6s[64G]","price":5099},
+            {"name":"iPhone 6s[16G]","price":4099},
+            {"name":"iPhone 6s Plus[64G]","price":5888},
+            {"name":"iPhone 6s Plus[16G]","price":4888}
+        ],
+        "HUAWEI":[
+            {"name":"Huawei Honor 4c","price":2299},
+            {"name":"Huawei 5S","price":1099},
+            {"name":"Huawei Honor 4A SCL-AL00","price":2599},
+            {"name":"Huawei Honor 5X 2+16GB","price":1199}
+        ],
+        "SAMSUNG":[
+            {"name":"SAMSUNG Galaxy S7 edge","price":5688},
+            {"name":"SAMSUNG Galaxy Note4","price":1999},
+            {"name":"SAMSUNG Galaxy C7","price":2599},
+            {"name":"SAMSUNG Galaxy C5","price":2199}
+        ]
+    },
+    "Computer":{
+        "ThinkPad":[
+            {"name":"ThinkPad E450","price":4299},
+            {"name":"ThinkPad New S2","price":5499},
+            {"name":"ThinkPad E550","price":4299},
+            {"name":"ThinkPad x260","price":7999}
+        ],
+        "DELL":[
+            {"name":"DELL 15PR-2648B","price":5999},
+            {"name":"DELL Vostro 14VR-1528B 14","price":3299},
+            {"name":"DELL Ins15PR-3848B 15.6","price":6999},
+            {"name":"DELL XPS13-9350-R1609 13.3","price":7999}
+        ]
+    }
+
+}
