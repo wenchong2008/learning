@@ -2,7 +2,7 @@
 ===
 
 ### 文件描述信息
-* login.py
+* loginauth.py
     描述：
         入口程序，用于模拟账号登陆
         该程序仅适用于 python3.x，如 python 版本为 2.x，请升级至 3.x
@@ -19,6 +19,6 @@
         如用户已被锁定:  username:password:!
 
 
-* login-flowchart.png
+* loginauth.png
     描述信息：
         login.py 程序的处理逻辑图
