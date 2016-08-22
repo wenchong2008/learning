@@ -1,14 +1,15 @@
 模拟账号登陆
 ===
 
-### 文件描述信息
+文件描述信息
+---
 * loginauth.py
-    描述：
-        入口程序，用于模拟账号登陆
-        该程序仅适用于 python3.x，如 python 版本为 2.x，请升级至 3.x
-    执行方法：
-        1、chmod +x login.py; ./login.py
-        2、python login.py
+> 描述：
+入口程序，用于模拟账号登陆
+该程序仅适用于 python3.x，如 python 版本为 2.x，请升级至 3.x
+> 执行方法：
+1、chmod +x login.py; ./login.py
+2、python login.py
 
 * userinfo
     描述信息：
