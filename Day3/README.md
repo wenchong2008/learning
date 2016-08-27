@@ -3,7 +3,11 @@
 修改 haproxy 配置文件内容
 
 
+blog：http://www.cnblogs.com/wenchong/p/5803043.html
+
+
 文件描述：
+
     1、haproxy.py
         程序主文件
     2、conf
@@ -13,6 +17,7 @@
 
 
 主要的功能：
+
     1、添加记录
         输入 json 格式数据
         判断 backend 是否存在
@@ -37,7 +42,13 @@
         展示 backend 下的记录
         
         
+        
+        
+        
+        
+        
 运用到的知识点：
+
     1、字典，列表、函数的使用
     2、json 模块将字符串转换为 json 数据
     3、with...as... 对单文件以及多文件的操作
