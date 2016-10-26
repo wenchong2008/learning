@@ -39,11 +39,11 @@ chown audit:audit /home/audit/{name}
 python /home/audit/{name}/bin/jump.py
 logout
 6. 添加管理信息
-a. python /home/audit/{name}/bin/hostAdmin.py        包含 bcd
-b. python /home/audit/{name}/bin/hostAdmin.py host   添加远程主机信息
-c. python /home/audit/{name}/bin/hostAdmin.py group  添加group
-d. python /home/audit/{name}/bin/hostAdmin.py user   添加堡垒机账号信息
-e. python /home/audit/{name}/bin/hostAdmin.py info   查看堡垒机账号信息
+> python /home/audit/{name}/bin/hostAdmin.py        包含 bcd
+> python /home/audit/{name}/bin/hostAdmin.py host   添加远程主机信息
+> python /home/audit/{name}/bin/hostAdmin.py group  添加group
+> python /home/audit/{name}/bin/hostAdmin.py user   添加堡垒机账号信息
+> python /home/audit/{name}/bin/hostAdmin.py info   查看堡垒机账号信息
             
             
             
