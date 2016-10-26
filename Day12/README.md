@@ -30,14 +30,17 @@
 ##使用方法：
 1. 在跳转机上安装 sqlalchemy, pymysql 模块
 2. 在跳转机上创建跳转账号
-useradd audit
-passwd audit
+
+        useradd audit
+        passwd audit
 3. 上传代码到跳转机目录 /home/audit/{name}
 4. 分配权限
-chown audit:audit /home/audit/{name}
+
+    chown audit:audit /home/audit/{name}
 5. 在 /home/audit/.bashrc 文件中添加
-python /home/audit/{name}/bin/jump.py
-logout
+
+        python /home/audit/{name}/bin/jump.py
+        logout
 6. 添加管理信息
 
         python /home/audit/{name}/bin/hostAdmin.py
