@@ -40,15 +40,11 @@ python /home/audit/{name}/bin/jump.py
 logout
 6. 添加管理信息
 
-    python /home/audit/{name}/bin/hostAdmin.py    
-    #添加远程主机信息
-    python /home/audit/{name}/bin/hostAdmin.py host
-    #添加group
-    python /home/audit/{name}/bin/hostAdmin.py group 
-    #添加堡垒机账号信息
-    python /home/audit/{name}/bin/hostAdmin.py user   
-    #查看堡垒机账号信息
-    python /home/audit/{name}/bin/hostAdmin.py info   
+        python /home/audit/{name}/bin/hostAdmin.py
+        python /home/audit/{name}/bin/hostAdmin.py host  #添加远程主机信息
+        python /home/audit/{name}/bin/hostAdmin.py group  #添加group
+        python /home/audit/{name}/bin/hostAdmin.py user  #添加堡垒机账号信息
+        python /home/audit/{name}/bin/hostAdmin.py info  #查看堡垒机账号信息
             
             
             
