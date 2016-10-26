@@ -1,6 +1,8 @@
 ##描述
 第十二天作业：`类堡垒机`
 
+[博客地址](http://www.cnblogs.com/wenchong/)
+
 
 ##文件说明
 
