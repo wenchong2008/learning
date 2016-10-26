@@ -23,21 +23,21 @@
     
 ##运用到的知识
 * 字典、列表的使用
-* argparse，paramiko, pika 等模块的使用
+* `argparse`，`paramiko`, `pika` 等模块的使用
 * 面向对象
-* RabbitMQ 生产者消费者模型
+* `RabbitMQ` 生产者消费者模型
 
 ##使用方法：
-1. 在跳转机上安装 sqlalchemy, pymysql 模块
+1. 在跳转机上安装 `sqlalchemy`, `pymysql` 模块
 2. 在跳转机上创建跳转账号
 
         useradd audit
         passwd audit
-3. 上传代码到跳转机目录 /home/audit/{name}
+3. 上传代码到跳转机目录 `/home/audit/{name}`
 4. 分配权限
 
-    chown audit:audit /home/audit/{name}
-5. 在 /home/audit/.bashrc 文件中添加
+        chown audit:audit /home/audit/{name}
+5. 在 `/home/audit/.bashrc` 文件中添加
 
         python /home/audit/{name}/bin/jump.py
         logout
