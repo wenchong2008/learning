@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+}
+.w{
+    width: 990px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+#shortcut {
+    background-color: #e3e4e5;
+    height: 30px;
+    color: #999;
+    line-height: 30px;
+}
+.shortcut{
+    margin: 0 auto;
+}
+#shortcut li {
+    float: left;
+}
+#shortcut a {
+    color: #999;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+#shortcut li.spacer {
+    overflow: hidden;
+    width: 1px;
+    height: 10px;
+    background-color: #999;
+    margin: 11px 5px 0;
+}
+.header{
+    height: 90px;
+    /*background: url("images/headbg.jpg") repeat-x left bottom;*/
+}
+.logo{
+    margin: 0 auto;
+    position: relative;
+}
+.logo-icon{
+    padding-top: 10px;
+    margin-left: -10px;
+}
+.logo-title{
+    padding-top: 30px;
+    font-size: 24px;
+    margin-left: 20px;
+    color: #333333;
+}
+.search-car{
+    padding-top: 40px;
+}
+.search-car input{
+    border: 2px solid #c91623;
+    height: 20px;
+    outline: none;
+    width: 250px;
+}
+.search-car a{
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    background-color: #c91623;
+    border: 2px solid #c91623;
+    margin-left: -4px;
+    text-align: center;
+    padding-right: 2px;
+    color: white;
+}
+.content{
+    margin: 0 auto;
+    /*height: 100px;*/
+    /*background-color: red;*/
+}
+.cart-warp{
+    margin-top: 10px;
+}
+.cart-warp .head{
+    font-size: 18px;
+}
+.cart-warp .cart-head{
+    height: 40px;
+    line-height: 40px;
+    background-color: #f3f3f3;
+    border: 1px solid #e9e9e9;
+    margin-top: 5px;
+}
+.t-checkbox{
+    width: 122px;
+    margin-left: 10px;
+}
+.p-checkbox{
+    width: 40px;
+    margin-left: 10px;
+}
+.t-goods{
+    width: 208px;
+}
+.p-goods{
+    position:relative;
+    width: 300px;
+    /*background-color: #00a2ca;*/
+}
+.p-img{
+}
+.p-name{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 200px;
+}
+.p-name:hover{
+    color: red;
+}
+.t-props{
+    width: 140px;
+}
+.p-props{
+    width: 170px;
+    color: #666;
+}
+.t-price{
+    width: 120px;
+    text-align: right;
+    margin-right: 40px;
+}
+.p-price{
+    width: 80px;
+    text-align: right;
+}
+.t-quantify{
+    width: 80px;
+    text-align: center;
+}
+.p-quantity{
+    width: 80px;
+    text-align: center;
+    margin-left: 40px;
+}
+.p-quantity input{
+    outline: none;
+    width: 28px;
+    border-style: solid;
+    border-width: 1px 0;
+    border-color: #e6e6e6;
+    height: 19px;
+    text-align: center;
+}
+.p-quantity span{
+    border: 1px solid #e6e6e6;
+    display: inline-block;
+    width: 20px;
+    height: 19px;
+    cursor: pointer;
+}
+.s-l{
+    margin-right: -4px;
+}
+.s-r{
+    margin-left: -4px;
+}
+.t-num{
+    width: 100px;
+    padding-right: 40px;
+    text-align: right;
+}
+.p-num{
+    width: 100px;
+    text-align: right;
+}
+.t-action{
+    width: 75px;
+}
+.p-ops{
+    margin-left: 40px;
+}
+.p-ops:hover{
+    color: red;
+    cursor: pointer;
+}
+.shop{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 11px;
+    font-weight: 700;
+    text-align: right;
+}
+.item-list{
+    border-style: solid;
+    border-width: 2px 1px 1px;
+    border-color: #e6e6e6;
+}
+.item-single{
+    padding: 20px 0;
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-color: #e6e6e6;
+}
+.cart-footer{
+    margin: 30px auto 0;
+    height: 52px;
+    border: 1px solid #e9e9e9;
+}
+.pay{
+    width: 100px;
+    height: 54px;
+    background-color: red;
+    line-height: 52px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -1px;
+
+}
+.choice-num{
+    padding: 0 20px;
+    height: 52px;
+    line-height: 52px;
+}
+.choice-num span{
+    color: #e4393c;
+}
+.total-price{
+    padding: 0 20px;
+    height: 52px;
+    line-height: 52px;
+}
+.total-price span{
+    color: #e4393c;
+    font-size: 16px;
+}
+.footer{
+    margin: 30px auto 0;
+    border-top: 1px solid #e6e6e6;
+    text-align: center;
+    font-size: 13px;
+}
+.footer .links{
+    margin-top: 30px;
+}
+.footer .copyright{
+    margin-top: 10px;
+}
+.footer a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: #666;
+}
+

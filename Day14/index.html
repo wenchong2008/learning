@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link charset="utf-8" rel="stylesheet" href="css/custom.css" />
+</head>
+<body>
+
+    <div id="main">
+        <table id="tb" class="list-table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>用户名</th>
+                    <th>密码</th>
+                    <th>电话号码</th>
+                    <th>邮编</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox" name="vol" /></td>
+                    <td>AAAAAA</td>
+                    <td>111111</td>
+                    <td>13800000001</td>
+                    <td>777771</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="vol" /></td>
+                    <td>BBBBBB</td>
+                    <td>222222</td>
+                    <td>13800000002</td>
+                    <td>777772</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="vol" /></td>
+                    <td>CCCCCC</td>
+                    <td>333333</td>
+                    <td>13800000003</td>
+                    <td>777773</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="vol" /></td>
+                    <td>DDDDDD</td>
+                    <td>444444</td>
+                    <td>13800000004</td>
+                    <td>777774</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="main-bottom">
+        <input id="check-all" type="button" value="全选" />
+        <input id="reverse-all" type="button" value="反选" />
+        <input id="cancel-all" type="button" value="取消" />
+        <input id="edit-check" type="button" value="进入编辑模式" />
+    </div>
+
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        $(function(){
+                    $("#check-all").click(CheckAll);
+                    $("#cancel-all").click(CancelAll);
+                    $("#reverse-all").click(ReverseAll);
+                    $("#edit-check").click(EditCheck);
+                    $("#tb input[name='vol']").each(function(){$(this).bind("click",AloneCheck)});
+            }
+        );
+    </script>
+
+</body>
+</html>

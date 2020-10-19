@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hide{
+    display: none;
+}
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.w{
+    width: 990px;
+}
+.header{
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.header .logo{
+    height: 60px;
+    width: 300px;
+    position: relative;
+}
+.b{
+    position: absolute;
+    font-size: 24px;
+    left:180px;
+    top: 10px;
+}
+.content{
+    background-color: #f77102;
+    height: 475px;
+}
+.login{
+    margin: 0 auto;
+    height: 475px;
+    background-image: url("../images/login-wrap.jpg");
+    background-repeat: no-repeat;
+}
+.login-form{
+    background-color: white;
+    width: 346px;
+    height: 320px;
+    margin-top: 40px;
+    position: relative;
+}
+.login-form .login-tab-top{
+    height: 54px;
+    line-height: 54px;
+    font-size: 18px;
+    font-family: "Microsoft Yahei";
+    text-align: center;
+    border-bottom: 1px solid #f4f4f4;
+}
+.login-box{
+    width: 306px;
+    margin: 0 auto;
+}
+.login-box .msg-wrap{
+    height: 30px;
+}
+.wrong-msg {
+    height: 20px;
+    text-align: left;
+    line-height: 20px;
+    color: red;
+    font-size: 12px;
+    border: 1px solid red;
+    background-color: pink;
+}
+.user,.password{
+    padding-bottom: 20px;
+}
+.icon{
+    border: 1px solid #eeeeee;
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background-color: #eeeeee;;
+}
+.login-box input[type='text'],.login-box input[type='password']{
+    border: 1px solid #eeeeee;
+    height: 36px;
+    width: 266px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.forget-password{
+    font-size: 12px;
+}
+.content a{
+    text-decoration: none;
+}
+.forget-password a{
+    color: #666666;
+}
+.forget-password a:hover{
+    color: red;
+    text-decoration-line: underline;
+}
+.register a{
+    color: #b2002e;
+    font-size: 15px;
+}
+.register a:hover{
+    text-decoration-line: underline;
+}
+input[type='submit']{
+    border: 1px solid #e4393c;
+    background-color: #e4393c;
+    width: 306px;
+    height: 36px;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+input{
+    outline:none;
+}
+.register{
+    color: red;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 12px;
+}
+.footer{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13px;
+
+}
+.footer .links{
+    margin-top: 30px;
+}
+.footer .copyright{
+    margin-top: 10px;
+}
+.footer a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: #000000;
+}
